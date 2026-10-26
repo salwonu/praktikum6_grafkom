@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Three.js Interactive 3D Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- HUD -->
+  <div id="hud" aria-live="polite">
+    <div class="row"><b>Hover</b><span id="hudHover">-</span></div>
+    <div class="row"><b>Selected</b><span id="hudSelected">belum ada</span></div>
+    <div class="row"><b>Clip</b><span id="hudClip">-</span></div>
+    <div class="row"><b>Environment</b><span id="hudEnv">-</span></div>
+    <div class="row"><b>FPS</b><span id="hudFps">-</span></div>
+  </div>
+
+  <!-- Kontrol -->
+  <div id="controls">
+    <div class="buttons">
+      <button id="btnEnv" type="button">Environment: ON</button>
+      <button id="btnAxes" type="button">Axes: ON</button>
+    </div>
+    <div id="clips" class="buttons"></div>
+  </div>
+
+  <!-- Information panel -->
+  <aside id="info"></aside>
+
+  <div id="loading">Memuat model GLB… 0%</div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
