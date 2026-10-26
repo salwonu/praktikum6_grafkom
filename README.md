@@ -1,12 +1,11 @@
 # Mini 3D Scene dengan Three.js
 
 ## Identitas Kelompok
-- Nama Kelompok : <isi>
 - Anggota:
   | Nama | NRP |
   |------|-----|
-  | <nama 1> | <NRP 1> |
-  | <nama 2> | <NRP 2> |
+  | Nadine Aulia Putri Fanani | 5025231206 |
+  | Salwa Fitri Fadiyah Hanan | 5025231220 |
 
 ## Judul & Deskripsi Scene
 **"Playground Geometri"** - sebuah diorama kecil berisi box, sphere, cone, dan torus di atas ground hijau, dengan
@@ -81,9 +80,6 @@ Buka alamat yang muncul di terminal (biasanya http://localhost:5173).
 | R / F | Naikkan / turunkan object |
 | Q / E | Putar object |
 | + / - | Perbesar / perkecil object |
-
-## Screenshot
-![Screenshot](screenshots/scene.png)
 
 ## Catatan Debugging
 - Shadow acne (garis-garis di permukaan) diatasi dengan `shadow.bias` dan `shadow.normalBias`.
